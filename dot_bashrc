@@ -1,0 +1,14 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+export EDITOR='/usr/bin/nvim'
+
+alias vim='nvim'
+alias shutdown='shutdown 0'
+alias ls='ls --color=auto'
+
+PS1='[\u@\h \W]\$ '
